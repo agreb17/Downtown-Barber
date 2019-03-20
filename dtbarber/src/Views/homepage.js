@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "";
-import Schedules from "";
-import About from "";
+// import Navbar from "";
+import Schedules from "./schedules";
+import About from "./about";
 import styled from "styled-components";
 import dtbimg from "../assets/DTBpic.jpg";
 
@@ -14,7 +14,7 @@ background: url(${dtbimg});
 const HomeView = props => {
       return (
         <HomeViewContainer>
-          <Navbar/>
+          {/* <Navbar/> */}
           <Schedules/>
           <About/>
         </HomeViewContainer>
